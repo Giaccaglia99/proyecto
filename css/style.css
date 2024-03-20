@@ -1,0 +1,346 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0,0,0,0.5718662464985995), transparent);
+    position: fixed;
+    border: none;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+    z-index: 100
+}
+.header__logo{
+    width: 100px;
+    margin-left: 10px;
+    
+}
+.header__nav-link{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+.header__nav-btn{
+    width: 250px;
+    height: 50px;
+    padding: 2px;
+    background: rgb(26, 144, 255);
+    border: 0;
+    font-size: 15px;
+    margin-right: 20px;
+    display: none;
+}
+.main{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    background-image: url('https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w828-q80/cbs_page_attribute/upsell_gen_hero1_webportrait_1030x1182_012424_2.jpg');
+    color: #ffffff; 
+    height: 550px;
+    padding: 20px;
+}
+.main__title{
+    font-size: 28px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    margin-top: 160px;
+    font-weight: bold;
+}
+.main__text{
+    font-size: 12px;   
+    word-spacing: 2px;
+    line-height: 19px;
+    font-style: italic;
+}
+.main__btn-1{
+    margin-top: 5px;
+    margin-bottom: 3px;
+    color: #ffffff;
+    border: none;
+    font-size: 12px;
+    height: 32px;
+    padding: 2px;
+    background: linear-gradient(83deg, rgba(21,32,172,1) 0%, rgba(70,84,231,1) 41%, rgba(42,133,249,1) 100%);
+}
+.main__btn{
+    color: #ffffff;
+    margin-bottom: 3px;
+    margin-top: 15px;
+    height: 32px;
+    padding: 2px;
+    border: solid 1px;
+    font-size: 12px;
+    background: none;
+}
+.section01{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    background-image: url('https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w750-q80/cbs_page_attribute/upsell_latam_hero3_webportrait_1030x928_102023_0.jpg');
+    color: #ffffff; 
+    height: 600px;
+}
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    object-position: bottom;  
+    margin-top: 40px; 
+}
+.section01__img{
+    width: 90px;
+}
+.section01__container-btn{
+    display: block;
+    justify-content: center;
+    margin-top: 230px;
+}
+
+.section01__btn{
+    color: #ffffff;
+    border: none;
+    font-size: 12px;
+    width: 90%;
+    height: 32px;
+    padding: 2px;
+    background: linear-gradient(83deg, rgba(21,32,172,1) 0%, rgba(70,84,231,1) 41%, rgba(42,133,249,1) 100%);
+
+}
+
+.section01__title{
+    font-size: 28px;
+    line-height: 25px;
+    margin: 15px;
+    font-weight: bold;
+}
+.section01__text{
+    font-size: 12px;   
+    font-style: italic;
+    margin: 0 15px;
+}
+.section02{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    background-image: url('https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w750-q80/cbs_page_attribute/upsell_latam_hero3_webportrait_1030x928_013124.jpg');
+    color: #ffffff; 
+    height: 600px;
+}
+.section02__title{
+    font-size: 27px;
+    line-height: 25px;
+    margin: 30px 10px 5px;
+    font-weight: bold;
+}
+.section02__text{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 14px;   
+    font-style: italic;
+}
+.section02__container-btn{
+    display: block;
+    justify-content: center;
+    margin-top: 170px;
+}
+.section02__btn{
+    color: #ffffff;
+    border: none;
+    font-size: 12px;
+    width: 90%;
+    height: 32px;
+    padding: 2px;
+    background: linear-gradient(83deg, rgba(21,32,172,1) 0%, rgba(70,84,231,1) 41%, rgba(42,133,249,1) 100%);
+    margin-top: 15px;
+}
+.section02__img4, .section02__img5, .section02__img6{
+    display: none;
+}
+.section02__img1, .section02__img2, .section02__img3, .section02__img4, .section02__img5, .section02__img6{
+    width: 90px;
+}
+.container__img-section02{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+.section03{
+    align-items: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-position: top;
+    text-align: center;
+    background-size: inherit;
+    background-image: url('https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w750-q80/cbs_page_attribute/upsell_latam_hero1_webportrait_1030x1182_013124.jpg');
+    color: #ffffff; 
+    height: 850px;
+}
+.section03__title{
+    font-size: 27px;
+    line-height: 25px;
+    margin: 150px 10px 5px;
+    font-weight: bold;
+}
+.section03__text{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 14px;   
+    font-style: italic;;
+}
+.section03__btn-1{
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    color: #ffffff;
+    border: none;
+    font-size: 12px;
+    height: 32px;
+    padding: 2px;
+    background: linear-gradient(83deg, rgba(21,32,172,1) 0%, rgba(70,84,231,1) 41%, rgba(42,133,249,1) 100%);
+}
+.section03__btn{
+    width: 90%;
+    color: #ffffff;
+    margin-bottom: 3px;
+    margin-top: 15px;
+    height: 32px;
+    padding: 2px;
+    border: solid 1px;
+    font-size: 12px;
+    background: none;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    align-items: center;
+    height: 400px;
+}
+.footer__container-soporte{
+    display: none;
+}
+.footer__container-navegacion{
+    display: none;
+}
+.footer__container-terminos{
+    display: none;
+}
+.footer__mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__mobile-text{
+    margin-top: 5px;
+    font-size: 13px;
+    color: #716e6e;
+    text-decoration: none;
+}
+.footer__container-logo{
+    width: 50%;
+    margin-top: 50px;
+}
+@media (min-width: 768px) {
+    .main{
+        justify-content: initial;
+        align-items: center;
+        height: 1020px;
+        background-position: top;
+        padding-top: 0px;
+        width: 100%;
+    }
+    .main__title{    
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 25px;
+        margin-top: 320px;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    .main__text{
+        font-size: 14px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 0px;
+    }
+    .main__btn-1{
+        margin-top:30px;
+        font-size: 13px;
+        height: 40px;
+        width: 350px
+    }
+    .main__btn{
+        margin-top:20px;
+        font-size: 13px;
+        height: 40px;
+        width: 350px
+        
+    }
+    .section01{
+        justify-content: start;
+        background-size: cover;
+        height: 1020px;
+        align-items: center;
+    }
+    .section01__title{
+        margin-top: 100px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .section01__text{
+        font-size: 20px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }    
+    .section01__btn{
+        margin-top: 160px;
+        font-size: 13px;
+        height: 40px;
+        width: 350px;
+    }
+    .carousel{
+        width: 90%; 
+        margin-top: 40px; 
+    }
+    .section01__img{
+        width: 25%;
+    }
+    .section02{
+        height: 1020px;
+    }
+    .section02__title{
+        font-size: 50px;
+        line-height: 50px;
+        margin: 50px 150px 20px;
+        
+    }
+    .section02__text{
+        font-size: 15px;
+        margin: 0px 200px 100px
+    }
+    ..section02__img4{
+        display: flex;
+    }
+}
