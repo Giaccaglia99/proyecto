@@ -259,6 +259,11 @@
     text-decoration: none;
 }
 .footer__container-logo{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.footer__logo{
     width: 50%;
     margin-top: 50px;
 }
@@ -339,6 +344,81 @@
     .section02__text{
         font-size: 15px;
         margin: 0px 200px 100px
+    }
+    .section02__img1, .section02__img2, .section02__img3, .section02__img4, .section02__img5, .section02__img6{
+        width: 23%;
+        margin: 3px
+    }
+    .section02__img4{
+        display: flex;
+    }
+    .section02__btn{
+        margin-top: 60px;
+        font-size: 13px;
+        height: 40px;
+        width: 350px;
+    }
+    .section03{
+        height: 1060px;
+    }
+    .section03__title{
+        margin-top: 300px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .section03__text{
+        font-size: 15px;
+        margin: 0px 100px 50px
+    }
+    .section03__btn{
+        margin-top: 30px;
+        font-size: 13px;
+        height: 40px;
+        width: 350px;
+    }
+    .section03__btn-1{
+        margin-top: 30px;
+        font-size: 13px;
+        height: 40px;
+        width: 350px;
+    }
+    .footer{
+
+        display: flex;
+        flex-direction: row;
+        background: black;
+        height: 450px;
+    }
+    .footer__mobile{
+        display: none;
+    }
+    .footer__container-soporte{
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    .footer__container-navegacion{
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    .footer__container-terminos{
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    .footer__container-logo{
+        position: relative;
+        
+    }
+    .footer__logo{
+        width: 100px;
+        margin-top: 20px;
+                
+    }
+    .footer__container-link{
+        text-decoration: none;
+        color: #716e6e;
     }
     
 }
