@@ -486,7 +486,7 @@
             width: 460px;
             margin-left: 33px;
             margin-right: 200px;
-            margin-top: 200px;
+            margin-top: 250px;
         }
         .section01__text{
             font-size: 14px;
@@ -507,7 +507,7 @@
             display: none;
         }
         .img__laptop{
-            margin-top: 280px;
+            margin-top: 240px;
             display: flex;
             justify-content: center;
         }
@@ -528,7 +528,7 @@
             width: 460px;
             margin-left: 33px;
             margin-right: 200px;
-            margin-top: 180px;
+            margin-top: 250px;
         }
         .section02__text{
             text-align: start;
@@ -547,7 +547,7 @@
             height: 45px;
         }
         .section02__img1, .section02__img2, .section02__img3, .section02__img4, .section02__img5, .section02__img6{
-            margin-top: 210px;
+            margin-top: 150px;
             display: flex;
             width: 12%;
             margin-left: 5px
