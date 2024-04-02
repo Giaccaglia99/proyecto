@@ -37,13 +37,14 @@
     position: relative;
     justify-content: center;
     flex-direction: column;
+    background-image: url(../images/imagenes-paramount/section-1/imagen-mobile.jpg);
     background-position: center;
     text-align: center;
     background-size: cover;
-    background-image: url('https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w828-q80/cbs_page_attribute/upsell_gen_hero1_webportrait_1030x1182_012424_2.jpg');
     color: #ffffff; 
     height: 680px;
     padding: 20px;
+
 }
 .main__title{
     font-size: 28px;
@@ -81,7 +82,7 @@
     background: none;
 }
 .section01{ 
-    background-image: url('https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w750-q80/cbs_page_attribute/upsell_gen_hero2_webportrait_1030x928_021924_0.jpg');
+    background-image: url(../images/imagenes-paramount/section-2/imagen-mobile.jpg);
     display: flex;
     position: relative;
     flex-direction: column;
@@ -140,7 +141,7 @@
     background-position: center;
     text-align: center;
     background-size: cover;
-    background-image: url('https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w750-q80/cbs_page_attribute/upsell_gen_hero3_webportrait_1030x928_012324.jpg');
+    background-image: url(../images/imagenes-paramount/section-3/fondo-mobile.jpg);
     color: #ffffff; 
     height: 600px;
 }
@@ -191,7 +192,7 @@
     background-position: top;
     text-align: center;
     background-size: inherit;
-    background-image: url('https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w750-q80/cbs_page_attribute/upsell_latam_hero1_webportrait_1030x1182_013124.jpg');
+    background-image: url(../images/imagenes-paramount/section-4/fondo-mobile.jpg);
     color: #ffffff; 
     height: 850px;
 }
@@ -446,7 +447,7 @@
             background: linear-gradient(83deg, rgba(21,32,172,1) 0%, rgba(70,84,231,1) 41%, rgba(42,133,249,1) 100%);
         }    
         .main{
-            background-image: url('https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w1920-q80/cbs_page_attribute/upsell_gen_hero1_weblandscape_2560x1280_012424_2.jpg');
+            background-image: url(../images/imagenes-paramount/section-1/imagen-desktop.jpg);
             align-items: start;
             height: 1070px;
             background-position:right;
@@ -473,7 +474,7 @@
             margin-left:15px;
         }
         .section01{
-            background-image: url('https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w1024-q80/cbs_page_attribute/upsell_gen_hero2_weblandscape_2560x960_021924_0.jpg');
+            background-image: url(../images/imagenes-paramount/section-2/fondo-desktop.jpg);
             background-position: right;
             background-size: 2600px;
             height: 970px;
@@ -515,7 +516,7 @@
             margin: 5px;
         }
         .section02{
-            background-image: url('https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w1920-q80/cbs_page_attribute/upsell_gen_hero3_weblandscape_2560x960_012324.jpg');
+            background-image: url(../images/imagenes-paramount/section-3/fondo-desktop.jpg);
             background-position: right;
             background-size: 2600px;
             height: 970px;
@@ -552,7 +553,7 @@
             margin-left: 5px
         }
         .section03{
-            background-image: url('https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w1920-q80/cbs_page_attribute/upsell_latam_hero1_weblandscape_2560x1280_013124.jpg');
+            background-image: url(../images/imagenes-paramount/section-4/fondo-desktop.jpg);
             background-position: center;
             background-size: 2200px;
             height: 1070px;
