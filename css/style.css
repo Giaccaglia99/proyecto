@@ -289,326 +289,330 @@
     width: 50%;
     margin-top: 50px;
 }
-@media (min-width: 768px) {
-    .main{
-        justify-content: initial;
-        align-items: center;
-        height: 1020px;
-        background-size: cover;
-        background-position: top;
-        padding-top: 0px;
-        width: 100%;
-
-    }
-    .main__title{    
-        font-size: 50px;
-        line-height: 50px;
-        margin-bottom: 25px;
-        margin-top: 320px;
-        margin-bottom: 5px;
-        font-weight: bold;
-    }
-    .main__text{
-        line-height: 15px;
-        font-size: 15px;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-bottom: 0px;
-    }
-    .main__btn-1{
-        margin-top:30px;
-        font-size: 13px;
-        height: 40px;
-        width: 350px
-    }
-    .main__btn{
-        margin-top:20px;
-        font-size: 13px;
-        height: 40px;
-        width: 350px
-        
-    }
-    .section01{
-        justify-content: start;
-        background-size: cover;
-        height: 1020px;
-        align-items: center;
-    }
-    .section01__title{
-        margin-top: 100px;
-        font-size: 50px;
-        line-height: 50px;
-    }
-    .section01__text{
-        font-size: 20px;
-        margin-left: 80px;
-        margin-right: 80px;
-    }    
-    .section01__btn{
-        margin-top: 160px;
-        font-size: 13px;
-        height: 40px;
-        width: 350px;
-    }
-    .carousel{
-        width: 90%; 
-        margin-top: 40px; 
-    }
-    .section01__img{
-        width: 25%;
-    }
-    .section02{
-        height: 1020px;
-    }
-    .section02__title{
-        font-size: 50px;
-        line-height: 50px;
-        margin: 50px 150px 20px;
-        
-    }
-    .section02__text{
-        font-size: 15px;
-        margin: 0px 200px 100px
-    }
-    .section02__img1, .section02__img2, .section02__img3, .section02__img4, .section02__img5, .section02__img6{
-        width: 23%;
-        margin: 3px
-    }
-    .section02__img4{
-        display: flex;
-    }
-    .section02__btn{
-        margin-top: 60px;
-        font-size: 13px;
-        height: 40px;
-        width: 350px;
-    }
-    .section03{
-        height: 1060px;
-    }
-    .section03__title{
-        margin-top: 300px;
-        font-size: 50px;
-        line-height: 50px;
-    }
-    .section03__text{
-        font-size: 15px;
-        margin: 0px 100px 50px
-    }
-    .section03__btn{
-        margin-top: 30px;
-        font-size: 13px;
-        height: 40px;
-        width: 350px;
-    }
-    .section03__btn-1{
-        margin-top: 30px;
-        font-size: 13px;
-        height: 40px;
-        width: 350px;
-    }
-    .footer{
-        position: absolute;
-        padding: 90px 40px 5px;
-        display: flex;
-        flex-direction: row;
-        align-items: start;
-        height: 450px;
-        width: 100%;
-    }    
-    .divisor{
-        color: black;
-        margin-top: 0px;
-    }
-    .footer__mobile{
-        display: none;
-    }
-    .footer__container-soporte, .footer__container-navegacion, .footer__container-terminos{
-        display: block;
-        position: relative;
-        flex-direction: column;
-        color: white;
-        margin-top: 90px;
-        line-height: 5px;
-    }
-    .footer__container-soporte, .footer__container-terminos{
-        margin-left: 60px;
-    }
-    .footer__container-logo{
-        display: block;
-        position: absolute;
-        margin-top: 0px;
-    }
-    .footer__logo{
-        margin-top: 0px;
-        width: 100px;                
-    }
-    .footer__container-link{
-        margin-top: 3px;
-        font-size: 12px;
-        text-decoration: none;
-        color: #716e6e;
-        flex-wrap: wrap;
-    }
-    @media (min-width: 1024px){
-        .header__container-logo{
-            margin-left: 20px;
-        }
-        .header__nav-container-link{
-            display: inherit;
-            position: absolute;
-            width: 150px;
-            margin-right: 400px;
-            margin-top: 20px;
-        }
-        .header__nav-container-btn{
-            margin-left: 130px;
-            margin-right: 45px;
-            display: block;
-            position: relative;
-        }
-        .header__nav-btn{
-            display: inherit;
-            width: 290px;
-            height: 45px;
-            margin-top: 5px;
-            margin-bottom: 3px;
-            color: #ffffff;
-            border: none;
-            font-size: 14px;
-            padding: 2px;
-            background: linear-gradient(83deg, rgba(21,32,172,1) 0%, rgba(28, 43, 205) 41%, rgba(11, 89, 190) 100%);
-            transition: all 1s;
-        }    
-        .header__nav-btn:hover{
-            background: linear-gradient(83deg, rgb(11, 89, 190) 0%, rgb(28, 43, 205) 41%, rgba(21,32,172,1) 100%);
-        }
+    @media (min-width: 768px) {
         .main{
-            background-image: url(../images/imagenes-paramount/section-1/imagen-desktop.jpg);
-            align-items: start;
+            justify-content: initial;
+            align-items: center;
+            height: 1020px;
             background-size: cover;
-            height: 650px;
-            background-position:right;
+            background-position: top;
+            padding-top: 0px;
+            width: 100%;
+
         }
-        .main__title{ 
+        .main__title{    
             font-size: 50px;
             line-height: 50px;
-            width: 460px;
-            padding: 0%;
-            margin-left: 15px;
-            margin-right: 200px;
-            margin-bottom: 15px;
-            margin-top: 180px;
+            margin-bottom: 25px;
+            margin-top: 320px;
+            margin-bottom: 5px;
             font-weight: bold;
         }
         .main__text{
+            line-height: 15px;
             font-size: 15px;
-            margin-left: 15px;
-            line-height: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 0px;
         }
         .main__btn-1{
-            margin-left:15px;
+            margin-top:30px;
+            font-size: 13px;
+            height: 40px;
+            width: 350px
         }
         .main__btn{
-            margin-left:15px;
+            margin-top:20px;
+            font-size: 13px;
+            height: 40px;
+            width: 350px
+            
         }
         .section01{
-            background-image: url(../images/imagenes-paramount/section-2/fondo-desktop.jpg);
-            background-position: right;
-            background-size: 1550px;
-            width: 100%;
-            height: 580px;
-            align-items: start;
+            justify-content: start;
+            background-size: cover;
+            height: 1020px;
+            align-items: center;
         }
         .section01__title{
-            text-align: start;
+            margin-top: 100px;
             font-size: 50px;
-            width: 50%;
-            margin-left: 33px;
-            margin-right: 200px;
-            margin-top: 50px;
-        }
-        .section01__text{
-            text-align: left;
-            font-size: 15px;
-            margin-left: 33px;
-            margin-bottom: 15px;
-            width: 35%;
-        }
-        .section01__container-btn{
-            margin-top: 15px;
-        }
-        .section01__btn{
-            margin-top: 0px;
-            margin-left: 33px;
-            width: 290px;
-            height: 45px;
-        }
-        .carousel{
-            display: none;
-        }
-        .img__laptop{
-            margin-top: 40px;
-            display: flex;
-            width: 95%;
-            justify-content: center;
-        }
-        .section01__img-laptop{
-            width: 12%;
-            margin: 5px;
-        }
-        .section02{
-            background-image: url(../images/imagenes-paramount/section-3/fondo-desktop.jpg);
-            background-position: right;
-            background-size: 1680px;
-            width: 100%;
-            height: 630px;
-            align-items: start;
-        }
-        .section02__title{
-            text-align: start;
-            font-size: 50px;
-            width: 40%;
-            margin-left: 33px;
-            margin-right: 200px;
-            margin-top: 45px;
-        }
-        .section02__text{
-            text-align: start;
-            font-size: 14px;
-            margin-left: 33px;
-            margin-bottom: 5px;
-            width: 35%;
-        }
-        .section02__container-btn{
-            margin-top: 15px;
-        }
-        .section02__btn{
-            margin-top: 0px;
-            margin-left: 33px;
-            margin-bottom: 0px;
-            width: 290px;
-            height: 45px;
-        }
-        .section02__img1, .section02__img2, .section02__img3, .section02__img4, .section02__img5, .section02__img6{
-            margin-top: 5px;
-            display: flex;
-
-            width: 12%;
-            margin-left: 5px
-        }
-        .section03{
-            background-image: url(../images/imagenes-paramount/section-4/fondo-desktop.jpg);
-            background-position: center;
-            background-size: 2200px;
-            width: 100%;
-            height: 1070px;
-        }
-        .section03__title{
-            margin-top: 150px;
-            font-size: 40px;
             line-height: 50px;
         }
-    }
-    
+        .section01__text{
+            font-size: 20px;
+            margin-left: 80px;
+            margin-right: 80px;
+        }    
+        .section01__btn{
+            margin-top: 160px;
+            font-size: 13px;
+            height: 40px;
+            width: 350px;
+        }
+        .carousel{
+            width: 90%; 
+            margin-top: 40px; 
+        }
+        .section01__img{
+            width: 25%;
+        }
+        .section02{
+            height: 1020px;
+        }
+        .section02__title{
+            font-size: 50px;
+            line-height: 50px;
+            margin: 50px 150px 20px;
+            
+        }
+        .section02__text{
+            font-size: 15px;
+            margin: 0px 200px 100px
+        }
+        .section02__img1, .section02__img2, .section02__img3, .section02__img4, .section02__img5, .section02__img6{
+            width: 23%;
+            margin: 3px
+        }
+        .section02__img4{
+            display: flex;
+        }
+        .section02__btn{
+            margin-top: 60px;
+            font-size: 13px;
+            height: 40px;
+            width: 350px;
+        }
+        .section03{
+            height: 1060px;
+        }
+        .section03__title{
+            margin-top: 300px;
+            font-size: 50px;
+            line-height: 50px;
+        }
+        .section03__text{
+            font-size: 15px;
+            margin: 0px 100px 50px
+        }
+        .section03__btn{
+            margin-top: 30px;
+            font-size: 13px;
+            height: 40px;
+            width: 350px;
+        }
+        .section03__btn-1{
+            margin-top: 30px;
+            font-size: 13px;
+            height: 40px;
+            width: 350px;
+        }
+        .footer{
+            position: absolute;
+            padding: 90px 40px 5px;
+            display: flex;
+            flex-direction: row;
+            align-items: start;
+            height: 450px;
+            width: 100%;
+        }    
+        .divisor{
+            color: black;
+            margin-top: 0px;
+        }
+        .footer__mobile{
+            display: none;
+        }
+        .footer__container-soporte, .footer__container-navegacion, .footer__container-terminos{
+            display: block;
+            position: relative;
+            flex-direction: column;
+            color: white;
+            margin-top: 90px;
+            line-height: 5px;
+        }
+        .footer__container-soporte, .footer__container-terminos{
+            margin-left: 60px;
+        }
+        .footer__container-logo{
+            display: block;
+            position: absolute;
+            margin-top: 0px;
+        }
+        .footer__logo{
+            margin-top: 0px;
+            width: 100px;                
+        }
+        .footer__container-link{
+            margin-top: 3px;
+            font-size: 12px;
+            text-decoration: none;
+            color: #716e6e;
+            flex-wrap: wrap;
+        }
+            @media (min-width: 1024px){
+                .header__container-logo{
+                    margin-left: 20px;
+                }
+                .header__nav-container-link{
+                    display: inherit;
+                    position: absolute;
+                    width: 150px;
+                    margin-right: 400px;
+                    margin-top: 20px;
+                }
+                .header__nav-container-btn{
+                    margin-left: 130px;
+                    margin-right: 45px;
+                    display: block;
+                    position: relative;
+                }
+                .header__nav-btn{
+                    display: inherit;
+                    width: 290px;
+                    height: 45px;
+                    margin-top: 5px;
+                    margin-bottom: 3px;
+                    color: #ffffff;
+                    border: none;
+                    font-size: 14px;
+                    padding: 2px;
+                    background: linear-gradient(83deg, rgba(21,32,172,1) 0%, rgba(28, 43, 205) 41%, rgba(11, 89, 190) 100%);
+                    transition: all 1s;
+                }    
+                .header__nav-btn:hover{
+                    background: linear-gradient(83deg, rgb(11, 89, 190) 0%, rgb(28, 43, 205) 41%, rgba(21,32,172,1) 100%);
+                }
+                .main{
+                    background-image: url(../images/imagenes-paramount/section-1/imagen-desktop.jpg);
+                    align-items: start;
+                    background-size: cover;
+                    height: 650px;
+                    background-position:right;
+                }
+                .main__title{ 
+                    font-size: 50px;
+                    line-height: 50px;
+                    width: 460px;
+                    padding: 0%;
+                    margin-left: 15px;
+                    margin-right: 200px;
+                    margin-bottom: 15px;
+                    margin-top: 180px;
+                    font-weight: bold;
+                }
+                .main__text{
+                    font-size: 15px;
+                    margin-left: 15px;
+                    line-height: 20px;
+                }
+                .main__btn-1{
+                    margin-left:15px;
+                }
+                .main__btn{
+                    margin-left:15px;
+                }
+                .section01{
+                    background-image: url(../images/imagenes-paramount/section-2/fondo-desktop.jpg);
+                    background-position: right;
+                    background-size: 1550px;
+                    width: 100%;
+                    height: 580px;
+                    align-items: start;
+                }
+                .section01__title{
+                    text-align: start;
+                    font-size: 50px;
+                    width: 50%;
+                    margin-left: 33px;
+                    margin-right: 200px;
+                    margin-top: 50px;
+                }
+                .section01__text{
+                    text-align: left;
+                    font-size: 15px;
+                    margin-left: 33px;
+                    margin-bottom: 15px;
+                    width: 35%;
+                }
+                .section01__container-btn{
+                    margin-top: 15px;
+                }
+                .section01__btn{
+                    margin-top: 0px;
+                    margin-left: 33px;
+                    width: 290px;
+                    height: 45px;
+                }
+                .carousel{
+                    display: none;
+                }
+                .img__laptop{
+                    margin-top: 40px;
+                    display: flex;
+                    width: 95%;
+                    justify-content: center;
+                }
+                .section01__img-laptop{
+                    width: 120px;
+                    margin: 5px;
+                }
+                .section02{
+                    background-image: url(../images/imagenes-paramount/section-3/fondo-desktop.jpg);
+                    background-position: right;
+                    background-size: 1680px;
+                    width: 100%;
+                    height: 630px;
+                    align-items: start;
+                }
+                .section02__title{
+                    text-align: start;
+                    font-size: 50px;
+                    width: 40%;
+                    margin-left: 33px;
+                    margin-right: 200px;
+                    margin-top: 45px;
+                }
+                .section02__text{
+                    text-align: start;
+                    font-size: 14px;
+                    margin-left: 33px;
+                    margin-bottom: 5px;
+                    width: 35%;
+                }
+                .section02__container-btn{
+                    margin-top: 15px;
+                }
+                .section02__btn{
+                    margin-top: 0px;
+                    margin-left: 33px;
+                    margin-bottom: 0px;
+                    width: 290px;
+                    height: 45px;
+                }
+                .container__img-section02{
+                    margin-top: 40px;
+                    display: flex;
+                    width: 95%;
+                    justify-content: center;
+                }
+                .section02__img1, .section02__img2, .section02__img3, .section02__img4, .section02__img5, .section02__img6{
+                    margin-top: 5px;
+                    display: flex;
+                    width: 120px;
+                    margin-left: 5px
+                }
+                .section03{
+                    background-image: url(../images/imagenes-paramount/section-4/fondo-desktop.jpg);
+                    background-position: center;
+                    background-size: 2200px;
+                    width: 100%;
+                    height: 1070px;
+                }
+                .section03__title{
+                    margin-top: 150px;
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+            }
 }
